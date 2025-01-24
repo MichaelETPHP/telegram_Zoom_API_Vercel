@@ -19,7 +19,7 @@ TELEGRAM_GROUP_CHAT_ID = os.getenv('TELEGRAM_GROUP_CHAT_ID', '-1002339790106')
 # Zoom API credentials
 ZOOM_CLIENT_ID = os.getenv('ZOOM_CLIENT_ID', '9TQL8mraR4OaDttE0fPcdA')
 ZOOM_CLIENT_SECRET = os.getenv('ZOOM_CLIENT_SECRET', 'nCWsA6YtWhRl5E0GjF5dwy9hiyD2AV77')
-ZOOM_REDIRECT_URI = os.getenv('ZOOM_REDIRECT_URI', 'https://telegram-zoom-api.onrender.com/callback')
+ZOOM_REDIRECT_URI = os.getenv('ZOOM_REDIRECT_URI', 'https://telegram-zoom-api-vercel.vercel.app/callback')
 
 # Global variable to store access token
 ZOOM_ACCESS_TOKEN = None
